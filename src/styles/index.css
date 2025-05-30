@@ -1,0 +1,1838 @@
+/* =================================================================================== Base Style ================================================================================== */
+/* Scroll Bar Settings */
+::-webkit-scrollbar {
+    display: none;
+  }
+   
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+   
+  /* General Body Styling */
+  body {
+    background-color: #000;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  /* Main Container Styling */
+  .main-container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  /* img */
+  .my-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+  }
+   
+  /* heading sec */
+  .heading-sec {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  /* heading extra part */
+  .heading-extra {
+    height: 100%;
+    width: 60%;
+  }
+   
+  /* heading */
+  .heading {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #009dff;
+  }
+   
+  .hc-card-one {
+    background-image: url('../assets/animated_card_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+   
+  .hc-card-two {
+    background-image: url('../assets/calculator_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+   
+  .hc-card-three {
+    background-image: url('../assets/chess_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+   
+  .hc-card-four {
+    background-image: url('../assets/login_page-background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+   
+  .js-card-one {
+    background-image: url('../assets/calculator_background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+   
+  .js-card-two {
+    background-image: url('../assets/kbc_background.jpg_large');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Home Section Styling */
+  .home {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+   
+   
+  .navbar-sec {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+  }
+   
+  .lap-fis-navbar {
+    height: 10%;
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    z-index: 100;
+  }
+   
+  /* first section (name and logo section) of lap (big scr) first navbar */
+  .fis-lap-nav-fis {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+   
+  /* navbar name */
+  .fis-lap-nav-name {
+    font-size: 2.5rem;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  }
+   
+  /* second section (navitem) of lap (big scr) first navbar */
+  .fis-lap-nav-seco {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+   
+  }
+   
+  /* navitem */
+  .lap-fis-nav-navitem {
+    height: 50%;
+    width: 15%;
+    color: #009dff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+  }
+   
+  /* third section (contact icons) of lap (big scr) first navbar */
+  .fis-lap-nav-thi {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+   
+  .lap-fis-nav-contitem {
+    color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-left: 20%;
+  }
+   
+  /* Second navbar for lap (big scr) */
+  .lap-seco-navbar {
+    height: 10vh;
+    width: 60vw;
+    background-color: aliceblue;
+    margin-top: -3%;
+    margin-left: -40%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 1rem 0;
+    overflow: hidden;
+    z-index: 100;
+  }
+   
+  /* first section (navitem) of lap (big scr) second navbar */
+  .seco-lap-nav-fis {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  /* navitems */
+  .lap-seco-nav-navitem {
+    height: 50%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #009dff;
+  }
+   
+  /* second section (contact icons) of lap (big scr) second navbar */
+  .seco-lap-nav-seco {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  /* Contact Icons */
+  .lap-seco-nav-contitem {
+    color: #000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    height: 30%;
+    margin-left: 5%;
+  }
+   
+  /* home content */
+  .home-content {
+    height: 85%;
+    width: 100%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+  }
+   
+  /* home name and img */
+  .home-name-img {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  /* home name */
+  .home-name {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  /* i'm */
+  .im {
+    font-size: 3rem;
+    color: #009dff;
+    margin-left: 8%;
+    margin-top: 2.5%;
+  }
+   
+  /* first name */
+  .fis-name {
+    font-size: 6rem;
+    color: aliceblue;
+    margin-top: -6%;
+    margin-left: 8%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  }
+   
+  /* last name */
+  .las-name {
+    font-size: 6rem;
+    color: aliceblue;
+    margin-top: -13%;
+    margin-left: 25%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  }
+   
+  /* typing animation */
+  .typing-container {
+    color: #009dff;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    font-size: 2.5rem;
+    margin-left: 8%;
+    margin-top: -12%;
+  }
+   
+  .cursor {
+    display: inline-block;
+    color: #009dff;
+    animation: blink 0.7s steps(1) infinite;
+  }
+   
+  @keyframes blink {
+   
+    0%,
+    100% {
+      opacity: 1;
+    }
+   
+    50% {
+      opacity: 0;
+    }
+  }
+   
+  /* resume button */
+  .resume-btn {
+    height: 10%;
+    width: 20%;
+    color: #000;
+    background-color: #009dff;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+  }
+   
+  .resume-btn:hover {
+    background-color: #009dff;
+    color: #000;
+  }
+   
+  /* image section */
+  .home-img-sec {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  /* home img container */
+  .home-img-container {
+    height: 80%;
+    width: 60%;
+    background-color: #009dff;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+   
+  .lb-fw-img-marquee {
+    overflow: hidden;
+    height: 15%;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+  }
+   
+  .lb-fw-img-track {
+    display: flex;
+    gap: 2rem;
+    animation: scroll-left 5s linear infinite;
+  }
+   
+  .lb-fw-img {
+    height: 70px;
+    width: auto;
+    border: #009dff 1px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #009dff;
+    margin-left: 4vw;
+  }
+   
+  /* Animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+   
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+   
+   
+  /* about section */
+  .about {
+    height: 100vh;
+    width: 100%;
+  }
+   
+  /* about content */
+  .about-content {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  /* about img */
+  .about-img-sec {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .about-img-container {
+    height: 80%;
+    width: 70%;
+    background-color: #009dff;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+   
+  /* about info */
+  .about-info-sec {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  /* my information */
+  /* text about me */
+  .about-me {
+    height: 30%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 1.2rem;
+  }
+   
+  /* about info container */
+  .about-info {
+    height: 50%;
+    width: 80%;
+    border: aliceblue 1px solid;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px aliceblue;
+  }
+   
+  /* info box */
+  .info-box {
+    height: 33.33%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    float: left;
+    justify-content: center;
+  }
+   
+  /* info box title */
+  .info-title {
+    font-size: 1rem;
+    margin-left: .5vw;
+  }
+   
+  /* info */
+  .info {
+    margin-left: .5vw;
+    margin-top: -2vh;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  }
+   
+  /* project sec */
+  .project {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  /* project content */
+  .project-content {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+   
+  /* project container */
+  .project-container {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  /* lable */
+  .lable {
+    font-size: 1.2rem;
+    color: aliceblue;
+  }
+   
+  .project-cont-fis-sec {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+   
+  .project-cont-seco-sec {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+   
+  .project-card {
+    height: 80%;
+    width: 35%;
+    border: 1px solid #009dff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+   
+  .project-card:hover {
+    box-shadow: 0 0 20px #009dff;
+  }
+   
+  /* project navigation bar */
+  .project-navbar {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .project-navitem {
+    height: 10vh;
+    width: 70%;
+    border: 1px solid #009dff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-top: 10%;
+    color: #009dff;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+   
+  .project-navitem:hover {
+    box-shadow: 0 0 20px #009dff;
+  }
+   
+  /* contact sec */
+  .contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+   
+  /* contact content */
+  .contact-content {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+   
+  /* my contact info */
+  .my-contact-info {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+   
+  /* cotnact card */
+  .contact-card {
+    height: 30%;
+    width: 50%;
+    border: 1px solid #009dff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+  }
+   
+  .contact-card:hover {
+    box-shadow: 0 0 20px #009dff;
+    text-decoration: underline;
+  }
+   
+  .contact-card h2 {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+  }
+   
+   
+  /* contact form */
+  .contact-form {
+    height: 96%;
+    width: 40%;
+    margin: 10px;
+    margin-left: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #009dff;
+    border-radius: 1rem;
+    /* background-color: teal; */
+  }
+   
+  label {
+    font-size: 1.2rem;
+    color: aliceblue;
+  }
+   
+  .contact-input {
+    height: 7vh;
+    width: 30vw;
+    border: 1px solid #009dff;
+    border-radius: 1rem;
+    margin-top: 2vh;
+    padding-left: 1vw;
+    color: #000;
+  }
+   
+  .contact-input:hover {
+    border: 1px solid #009dff;
+    box-shadow: 0 0 20px #009dff;
+  }
+   
+  .contact-message {
+    min-height: 20vh;
+    min-width: 30vw;
+    max-height: 20vh;
+    max-width: 30vw;
+    border: 1px solid #009dff;
+    border-radius: 1rem;
+    margin-top: 2vh;
+    padding-left: 1vw;
+    color: #000;
+  }
+   
+  .contact-message:hover {
+    border: 1px solid #009dff;
+    box-shadow: 0 0 20px #009dff;
+  }
+   
+  .submit-btn {
+    height: 7%;
+    width: 25%;
+    color: #000;
+    border: 1px solid #009dff;
+    border-radius: 8px;
+  }
+   
+  .submit-btn:hover {
+    box-shadow: 0 0 20px #009dff;
+    color: #000;
+  }
+   
+  /* footer */
+  .site-footer {
+    background-color: #181818;
+    color: aliceblue;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+   
+  .footer-content {
+    max-width: 1000px;
+    margin: auto;
+  }
+   
+  .footer-links {
+    margin-top: 1rem;
+  }
+   
+  .footer-links a {
+    color: #009dff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+   
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+  }
+   
+   
+  /* **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  ***********************************************************************************************************************************************************************************/
+   
+  /* ========================== MEDIA QUERIES ========================== */
+   
+  /* For screens less than 425px (Mobile) */
+  @media (max-width: 425px) {
+   
+    .lap-fis-navbar,
+    .lap-seco-navbar,
+    .home-img-sec {
+      display: none !important;
+    }
+   
+    .main-container {
+      height: auto;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+   
+    .heading-sec {
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+   
+    .heading-extra {
+      display: none !important;
+    }
+   
+    .heading {
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      margin-top: 14.5%;
+    }
+   
+    .navbar-sec {
+      background-color: #000;
+      height: 15vh;
+      width: 100%;
+    }
+   
+    .mob-navbar {
+      height: 10vh;
+      width: 80%;
+      background-color: aliceblue;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      z-index: 1;
+      position: fixed;
+    }
+   
+    .mob-fis-sec {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+   
+    .mob-logo-section {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+   
+    .mob-nav-name {
+      font-size: 2rem;
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+      color: #000;
+    }
+   
+    /* Section for the mobile menu icon */
+    .mob-seco-sec {
+      height: 100%;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+   
+    /* Styling for the hamburger icon */
+    .mob-menu-icon {
+      font-size: 2rem;
+      margin-right: 5%;
+      cursor: pointer;
+    }
+   
+    /* Styling for the contact icons inside the slidebar */
+    .mob-contact-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+      color: aliceblue;
+    }
+   
+    .mob-contact-icons a {
+      font-size: 2rem;
+      color: white;
+      margin: 1rem 0;
+      transition: color 0.3s ease;
+    }
+   
+    /* Hover effect for the contact icons */
+    .mob-contact-icons a:hover {
+      color: #fff;
+    }
+   
+    /* Optional: Add some space between icons */
+    .mob-contact-icons i {
+      margin-right: 8px;
+    }
+   
+   
+    /* Sliding Menu */
+    #mobSlidebar {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      height: 100vh;
+      width: 70vw;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(5px);
+      background-color: rgba(0, 0, 0, 0.9);
+      transition: left 0.3s ease;
+    }
+   
+    /* When the slidebar is active, it moves into the screen */
+    #mobSlidebar.active {
+      left: 0;
+    }
+   
+    /* Styling for slidebar links */
+    #mobSlidebar a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: #009dff;
+      margin: 1rem 0;
+      transition: color 0.3s ease;
+    }
+   
+    /* Hover effect for links */
+    #mobSlidebar a:hover {
+      color: #fff;
+    }
+   
+    .home-content {
+      height: 85%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .home-name-img,
+    .home-name {
+      height: 90%;
+      width: 100%;
+      display: flex;
+      /* flex-direction: column; */
+      /* justify-content: center; */
+      align-items: center;
+      margin-top: -15%;
+      background-color: transparent;
+    }
+   
+    .im {
+      font-size: 2rem;
+      margin-top: 2%;
+      margin-left: -2.5%;
+    }
+   
+    .fis-name {
+      font-size: 4.5rem;
+      margin-left: -10%;
+    }
+   
+    .las-name {
+      font-size: 4rem;
+      margin-top: -17%;
+    }
+   
+    .typing-container {
+      /* margin-left: -4%; */
+      font-size: 1.5rem;
+    }
+   
+    .resume-btn {
+      width: 30%;
+      overflow: hidden;
+      margin-left: 0%;
+      height: 10%;
+    }
+   
+    .lb-fw-img-marquee {
+      overflow: hidden;
+      height: 15%;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .lb-fw-img-track {
+      display: flex;
+      gap: 2rem;
+      animation: scroll-left 8s linear infinite;
+    }
+   
+    .lb-fw-img {
+      height: 70px;
+      width: auto;
+      border: #009dff 1px solid;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #009dff;
+      margin-left: 4vw;
+    }
+   
+   
+  /* about */
+    .about {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    .about-content {
+      height: 90%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    .about-img-container {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    }
+   
+    .about-img-sec {
+      height: 70vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .about-info-sec {
+      height: 80vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+   
+    .about-me {
+      margin-top: -30%;
+      line-height: 3.5vh;
+    }
+   
+    .about-info {
+      width: 90%;
+      margin-top: 25%;
+    }
+   
+    .email {
+      font-size: 1.2rem;
+    }
+   
+    /* project */
+    .project {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .project-content {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+   
+    .project-navbar {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .project-navitem {
+      height: 7vh;
+      width: 50%;
+    }
+   
+    .project-container {
+      height: 70vh;
+      width: 100%;
+    }
+   
+    .project-card {
+      height: 90%;
+      width: 45%;
+    }
+   
+    /* contact */
+    .contact {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .contact-content {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5%;
+    }
+   
+    .my-contact-info {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .contact-card {
+      height: 20vh;
+      width: 70%;
+      margin-top: 5%;
+    }
+   
+    .contact-form {
+      height: auto;
+      width: 90%;
+      margin-top: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+   
+    label {
+      margin-left: 2vh;
+    }
+   
+    .contact-input {
+      height: 6vh;
+      width: 70vw;
+      margin-left: 2vh;
+    }
+   
+    .contact-message {
+      min-height: 20vh;
+      min-width: 70vw;
+      max-height: 20vh;
+      max-width: 70vw;
+      margin-left: 2vh;
+    }
+   
+    .submit-btn {
+      height: 5vh;
+      width: 30%;
+      margin-left: 2vh;
+    }
+  }
+   
+  /* **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  ***********************************************************************************************************************************************************************************/
+   
+  /* Media quarry for tablet 425px to 768px */
+  @media (max-width: 768px) {
+   
+    .lap-fis-navbar,
+    .lap-seco-navbar,
+    .home-img-sec,
+    .heading-extra {
+      display: none !important;
+    }
+   
+    .main-container {
+      height: auto;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+   
+    .heading-sec {
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+   
+    .heading {
+      font-size: 2rem;
+      /* +0.5rem */
+      display: flex;
+      justify-content: center;
+      margin-top: 12%;
+      /* slight lift */
+    }
+   
+    .navbar-sec {
+      background-color: #000;
+      height: 15vh;
+      width: 100%;
+    }
+   
+    .my-img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: -10%;
+    }
+   
+    .mob-navbar {
+      height: 10vh;
+      width: 80%;
+      background-color: aliceblue;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      z-index: 1;
+      position: fixed;
+    }
+   
+    .mob-fis-sec {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+   
+    .mob-logo-section {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+   
+    .mob-nav-name {
+      font-size: 2.4rem;
+      /* +0.4rem */
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+      color: #000;
+    }
+   
+    .mob-seco-sec {
+      height: 100%;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+   
+    .mob-menu-icon {
+      font-size: 2.4rem;
+      /* +0.4rem */
+      margin-right: 5%;
+      cursor: pointer;
+    }
+   
+    .mob-contact-icons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+      color: aliceblue;
+    }
+   
+    .mob-contact-icons a {
+      font-size: 2.2rem;
+      /* +0.2rem */
+      color: white;
+      margin: 1rem 0;
+      transition: color 0.3s ease;
+    }
+   
+    .mob-contact-icons a:hover {
+      color: #fff;
+    }
+   
+    .mob-contact-icons i {
+      margin-right: 8px;
+    }
+   
+    #mobSlidebar {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      height: 100vh;
+      width: 70vw;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(5px);
+      background-color: rgba(0, 0, 0, 0.9);
+      transition: left 0.3s ease;
+    }
+   
+    #mobSlidebar.active {
+      left: 0;
+    }
+   
+    #mobSlidebar a {
+      text-decoration: none;
+      font-size: 1.8rem;
+      /* +0.3rem */
+      color: #009dff;
+      margin: 1rem 0;
+      transition: color 0.3s ease;
+    }
+   
+    #mobSlidebar a:hover {
+      color: #fff;
+    }
+   
+    .home-content {
+      height: 85%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .home-name-img,
+    .home-name {
+      height: 75%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: -15%;
+    }
+   
+    .im {
+      font-size: 2.2rem;
+      /* +0.2rem */
+      margin-top: 2%;
+      margin-left: -2.5%;
+    }
+   
+    .fis-name {
+      font-size: 5rem;
+      /* +0.5rem */
+      margin-left: -10%;
+    }
+   
+    .las-name {
+      font-size: 4.5rem;
+      /* +0.5rem */
+      margin-top: -18%;
+      /* a bit less overlap */
+    }
+   
+    .typing-container {
+      margin-left: -4%;
+      font-size: 1.8rem;
+      /* +0.3rem */
+    }
+   
+    .resume-btn {
+      width: 30%;
+      overflow: hidden;
+      margin-left: 0%;
+    }
+   
+    .lb-fw-img-marquee {
+      overflow: hidden;
+      height: 15%;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .lb-fw-img-track {
+      display: flex;
+      gap: 2rem;
+      animation: scroll-left 8s linear infinite;
+    }
+   
+    .lb-fw-img {
+      height: 70px;
+      width: auto;
+      border: #009dff 1px solid;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #009dff;
+      margin-left: 4vw;
+    }
+   
+   
+    /* about */
+    .about {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    .about-content {
+      height: 90%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+   
+    .about-img-sec {
+      height: 70vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .about-info-sec {
+      height: 80vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+   
+    .about-me {
+      margin-top: -30%;
+      line-height: 3.8vh;
+      /* +0.3vh */
+    }
+   
+    .about-info {
+      width: 90%;
+      margin-top: 25%;
+    }
+   
+    .email {
+      font-size: 1.4rem;
+      /* +0.2rem */
+    }
+   
+    /* project */
+    .project {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .project-content {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+   
+    .project-navbar {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .project-navitem {
+      height: 7vh;
+      width: 50%;
+    }
+   
+    .project-container {
+      height: 70vh;
+      width: 100%;
+    }
+   
+    .project-card {
+      height: 90%;
+      width: 45%;
+    }
+   
+    /* contact */
+    .contact {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .contact-content {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5%;
+    }
+   
+    .my-contact-info {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    .contact-card {
+      height: 20vh;
+      width: 70%;
+      margin-top: 5%;
+    }
+   
+    .contact-form {
+      height: auto;
+      width: 90%;
+      margin-top: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+   
+    label {
+      margin-left: 2vh;
+    }
+   
+    .contact-input {
+      height: 6vh;
+      width: 70vw;
+      margin-left: 2vh;
+    }
+   
+    .contact-message {
+      min-height: 20vh;
+      min-width: 70vw;
+      max-height: 20vh;
+      max-width: 70vw;
+      margin-left: 2vh;
+    }
+   
+    .submit-btn {
+      height: 5vh;
+      width: 30%;
+      margin-left: 2vh;
+    }
+  }
+   
+   
+  /* **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  ***********************************************************************************************************************************************************************************/
+   
+  /* For screens equal to or greater than 768px (Laptop and above) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+   
+    .mob-navbar,
+    #mobSlidebar {
+      display: none !important;
+    }
+   
+    .lap-fis-navbar,
+    .lap-seco-navbar {
+      display: flex;
+    }
+   
+    /* Home Section Styling */
+    .home {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+   
+   
+    .navbar-sec {
+      height: 15%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: default;
+    }
+   
+    .lap-fis-navbar {
+      height: 10%;
+      width: 90%;
+      background-color: aliceblue;
+      border-radius: 1rem;
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      z-index: 100;
+    }
+   
+    /* first section (name and logo section) of lap (big scr) first navbar */
+    .fis-lap-nav-fis {
+      height: 100%;
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+   
+    /* navbar name */
+    .fis-lap-nav-name {
+      font-size: 2.5rem;
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+    }
+   
+    /* second section (navitem) of lap (big scr) first navbar */
+    .fis-lap-nav-seco {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+   
+    }
+   
+    /* navitem */
+    .lap-fis-nav-navitem {
+      height: 50%;
+      width: 15%;
+      color: #009dff;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin-top: 2vh;
+    }
+   
+    /* third section (contact icons) of lap (big scr) first navbar */
+    .fis-lap-nav-thi {
+      height: 100%;
+      width: 20%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+   
+    .lap-fis-nav-contitem {
+      color: #000000;
+      font-size: 1.2rem;
+      text-decoration: none;
+      margin-left: 20%;
+    }
+   
+    /* Second navbar for lap (big scr) */
+    .lap-seco-navbar {
+      height: 10vh;
+      width: 60vw;
+      background-color: aliceblue;
+      margin-top: -3%;
+      margin-left: -40%;
+      position: fixed;
+      display: flex;
+      flex-direction: row;
+      border-radius: 0 0 1rem 0;
+      overflow: hidden;
+      z-index: 100;
+    }
+   
+    /* first section (navitem) of lap (big scr) second navbar */
+    .seco-lap-nav-fis {
+      height: 100%;
+      width: 75%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    /* navitems */
+    .lap-seco-nav-navitem {
+      height: 50%;
+      width: 25%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      text-decoration: none;
+      color: #009dff;
+    }
+   
+    /* second section (contact icons) of lap (big scr) second navbar */
+    .seco-lap-nav-seco {
+      height: 100%;
+      width: 25%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    /* Contact Icons */
+    .lap-seco-nav-contitem {
+      color: #000;
+      font-size: 1.2rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 33.33%;
+      height: 30%;
+      margin-left: 5%;
+    }
+   
+    /* home content */
+    .home-content {
+      height: 85%;
+      width: 100%;
+      z-index: 0;
+      display: flex;
+      flex-direction: row;
+      cursor: default;
+    }
+   
+    /* home name */
+    .home-name {
+      height: 100%;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+   
+    }
+   
+    /* i'm */
+    .im {
+      font-size: 2.5rem;
+      color: #009dff;
+      margin-left: 8%;
+      margin-top: 5%;
+    }
+   
+    /* first name */
+    .fis-name {
+      font-size: 5.5rem;
+      color: aliceblue;
+      margin-top: -4%;
+      margin-left: 8%;
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+    }
+   
+    /* last name */
+    .las-name {
+      font-size: 5.25rem;
+      color: aliceblue;
+      margin-top: -13%;
+      margin-left: 30%;
+      font-family: 'Edu VIC WA NT Beginner', cursive;
+    }
+   
+    /* typing animation */
+    .typing-container {
+      color: #009dff;
+      white-space: nowrap;
+      overflow: hidden;
+      width: fit-content;
+      font-size: 2rem;
+      margin-left: 8%;
+      margin-top: -12%;
+    }
+   
+    .cursor {
+      display: inline-block;
+      color: #009dff;
+      animation: blink 0.7s steps(1) infinite;
+    }
+   
+    @keyframes blink {
+   
+      0%,
+      100% {
+        opacity: 1;
+      }
+   
+      50% {
+        opacity: 0;
+      }
+    }
+   
+    /* resume btn */
+    .resume-btn {
+      height: 8%;
+      border: 1px solid #009dff;
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      color: #009dff;
+      text-decoration: none;
+      margin-left: 8%;
+    }
+   
+   
+    .resume-btn:hover {
+      background-color: #009dff;
+      color: #000;
+    }
+   
+    /* image section */
+    .home-img {
+      height: 100%;
+      width: 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+    /* home img container */
+    .home-img-container {
+      height: 80%;
+      width: 70%;
+      background-color: #009dff;
+      border-radius: 1rem;
+    }
+  }
+   
+   
+  /* **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  **********************************************************************************************************************************************************************************
+  ***********************************************************************************************************************************************************************************/
+   
+  /* For screens equal to or greater than 1024px (Laptop and above) */
+  @media (min-width: 1024px) {
+   
+    .mob-navbar,
+    #mobSlidebar {
+      display: none !important;
+    }
+   
+    .lap-fis-navbar,
+    .lap-seco-navbar {
+      display: flex;
+    }
+   
+   
+  }
+   
